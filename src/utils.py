@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import aiofiles
 import uuid
-from config import config
+import config
 
 def ensure_directories():
     """Create necessary directories if they don't exist"""

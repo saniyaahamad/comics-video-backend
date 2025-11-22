@@ -7,15 +7,15 @@ import os
 from typing import List, Optional
 
 from src.cartoonizer import Cartoonizer
-from src.video_creator import VideoCreator
+
 from src.utils import ensure_directories, allowed_file, generate_filename, save_uploaded_file
-from config import config
+import config
 
 app = FastAPI(title="Comics and Video Cartoonizer API", version="1.0.0")
 
 # Initialize components
 cartoonizer = Cartoonizer()
-video_creator = VideoCreator()
+#video_creator = VideoCreator()
 
 # Ensure directories exist on startup
 ensure_directories()

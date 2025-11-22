@@ -1,7 +1,8 @@
-config = Config()  fastapi==0.104.1 
+fastapi==0.104.1 
 uvicorn==0.24.0 
-opencv-python==4.8.1.78 
+opencv-python-headless==4.8.1.78 
 python-multipart==0.0.6 
 aiofiles==23.2.1 
 python-dotenv==1.0.0 
 numpy==1.24.3 
+setuptools==70.0.0 
