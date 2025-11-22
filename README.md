@@ -1,2 +1,3 @@
-# comics-video-backend
-Backend for comics and video creation using OpenCV and FastAPI
+# Comics and Video Cartoonizer 
+ 
+A backend system for creating cartoons and videos from images using OpenCV and FastAPI. 
